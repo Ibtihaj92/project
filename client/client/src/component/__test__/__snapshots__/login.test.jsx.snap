@@ -1,0 +1,47 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`snapshot of Login.js UI 1`] = `
+<div>
+  <div
+    style="max-width: 400px; margin: 50px auto; padding: 30px; border-radius: 16px; background-color: rgb(255, 255, 255); box-shadow: 0 8px 24px rgba(0,0,0,0.15); text-align: center;"
+  >
+    <img
+      alt="logo"
+      src="/src/logo.png"
+      style="width: 110px; margin-bottom: 20px;"
+    />
+    <h2
+      style="font-size: 22px; margin-bottom: 20px; color: rgb(51, 51, 51);"
+    >
+      Volunteer Opportunities System
+    </h2>
+    <input
+      placeholder="Email"
+      style="width: 100%; padding: 10px; margin-bottom: 12px; border-radius: 8px; border: 1px solid rgb(204, 204, 204); font-size: 14px;"
+      type="email"
+      value=""
+    />
+    <input
+      placeholder="Password"
+      style="width: 100%; padding: 10px; margin-bottom: 12px; border-radius: 8px; border: 1px solid rgb(204, 204, 204); font-size: 14px;"
+      type="password"
+      value=""
+    />
+    <button
+      style="background-color: rgb(42, 157, 181); color: white; padding: 12px 0px; border: medium; border-radius: 12px; cursor: pointer; font-size: 16px; width: 100%; margin-bottom: 12px; transition: 0.3s;"
+    >
+      Log in
+    </button>
+    <div
+      style="font-size: 14px; color: rgb(102, 102, 102);"
+    >
+      Don’t have an account?
+      <span
+        style="color: rgb(42, 157, 181); cursor: pointer; margin-left: 4px;"
+      >
+        Sign Up
+      </span>
+    </div>
+  </div>
+</div>
+`;

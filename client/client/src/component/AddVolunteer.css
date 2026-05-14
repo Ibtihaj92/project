@@ -1,0 +1,163 @@
+.add-volunteer-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background-color: #d6eef0;
+  padding: 40px 20px;
+}
+
+.add-volunteer-card {
+  background-color: #eaf5f7;
+  padding: 30px 35px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 520px;
+}
+
+.add-volunteer-card h2 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #1a3a4a;
+  margin-bottom: 8px;
+}
+
+.add-volunteer-card hr {
+  border: none;
+  border-top: 2px solid #a0c8d0;
+  margin-bottom: 20px;
+}
+
+.field-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a3a4a;
+  margin-bottom: 4px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 14px;
+  border: 1px solid #b0d4da;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-upload {
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.upload-placeholder {
+  width: 100%;
+  height: 100px;
+  border: 2px dashed #a0c8d0;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaf5f7;
+}
+
+.preview-image {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.location-input-wrapper {
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.location-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #2a9db5;
+  font-size: 16px;
+}
+
+.location-input {
+  padding-left: 36px !important;
+  padding-right: 40px !important;
+  margin-bottom: 0 !important;
+}
+
+.gps-btn {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+  width: auto;
+  margin: 0;
+  line-height: 1;
+}
+
+.gps-btn:hover {
+  opacity: 0.7;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #5bb8c8;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 8px;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #3fa0b5;
+}
+
+button[type="submit"]:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #2a9db5;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  width: auto;
+  margin: 0;
+}
+
+.back-btn:hover {
+  color: #1a7a8a;
+}

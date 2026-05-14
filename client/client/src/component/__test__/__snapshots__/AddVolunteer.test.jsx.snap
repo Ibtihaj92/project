@@ -1,0 +1,224 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AddVolunteer Component > renders correctly 1`] = `
+<div
+  className="add-volunteer-container"
+>
+  <div
+    className="add-volunteer-card"
+  >
+    <div
+      style={
+        {
+          "alignItems": "center",
+          "display": "flex",
+          "marginBottom": 8,
+        }
+      }
+    >
+      <button
+        className="back-btn"
+        onClick={[Function]}
+        type="button"
+      >
+        ← Back
+      </button>
+    </div>
+    <h2>
+      Add New Volunteer
+    </h2>
+    <hr />
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="image-upload"
+      >
+        <label
+          htmlFor="file-input"
+        >
+          <div
+            className="upload-placeholder"
+          >
+            <svg
+              color="#a0b8c8"
+              fill="currentColor"
+              height={48}
+              stroke="currentColor"
+              strokeWidth="0"
+              style={
+                {
+                  "color": "#a0b8c8",
+                }
+              }
+              viewBox="0 0 24 24"
+              width={48}
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0 0h24v24H0z"
+                fill="none"
+              />
+              <path
+                d="M19.35 10.04A7.49 7.49 0 0 0 12 4C9.11 4 6.6 5.64 5.35 8.04A5.994 5.994 0 0 0 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"
+              />
+            </svg>
+          </div>
+        </label>
+        <input
+          accept="image/*"
+          id="file-input"
+          onChange={[Function]}
+          style={
+            {
+              "display": "none",
+            }
+          }
+          type="file"
+        />
+      </div>
+      <label
+        className="field-label"
+      >
+        Volunteer Name
+      </label>
+      <input
+        onChange={[Function]}
+        placeholder="Volunteer Name"
+        required={true}
+        type="text"
+        value=""
+      />
+      <div
+        className="row"
+      >
+        <div
+          className="col"
+        >
+          <label
+            className="field-label"
+          >
+            Date
+          </label>
+          <input
+            min="2026-05-14"
+            onChange={[Function]}
+            required={true}
+            type="date"
+            value=""
+          />
+        </div>
+        <div
+          className="col"
+        >
+          <label
+            className="field-label"
+          >
+            Time
+          </label>
+          <input
+            onChange={[Function]}
+            required={true}
+            type="time"
+            value=""
+          />
+        </div>
+        <div
+          className="col"
+        >
+          <label
+            className="field-label"
+          >
+            Volunteer Type
+          </label>
+          <select
+            onChange={[Function]}
+            value="Social"
+          >
+            <option
+              value="Social"
+            >
+              Social
+            </option>
+            <option
+              value="Environmental"
+            >
+              Environmental
+            </option>
+            <option
+              value="Educational"
+            >
+              Educational
+            </option>
+            <option
+              value="Health"
+            >
+              Health
+            </option>
+          </select>
+        </div>
+      </div>
+      <label
+        className="field-label"
+      >
+        Location
+      </label>
+      <div
+        className="location-input-wrapper"
+      >
+        <svg
+          className="location-icon"
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 384 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"
+          />
+        </svg>
+        <input
+          className="location-input"
+          onChange={[Function]}
+          placeholder="Enter location"
+          type="text"
+          value=""
+        />
+        <button
+          className="gps-btn"
+          onClick={[Function]}
+          title="Use my current location"
+          type="button"
+        >
+          📡
+        </button>
+      </div>
+      <label
+        className="field-label"
+      >
+        Description
+      </label>
+      <input
+        onChange={[Function]}
+        placeholder="Description"
+        type="text"
+        value=""
+      />
+      <button
+        disabled={false}
+        type="submit"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+`;
